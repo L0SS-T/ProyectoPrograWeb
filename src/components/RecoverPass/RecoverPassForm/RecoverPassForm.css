@@ -1,3 +1,9 @@
+main{
+  display: flex;
+  justify-content: center;   /* centrado horizontal */
+  align-items: center;       /* centrado vertical */
+  min-height: 100vh;         /* ocupa toda la altura de la pantalla */
+}
 
 .recoverBloque {
     background-color: rgb(247, 247, 247);

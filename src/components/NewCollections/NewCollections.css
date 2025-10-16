@@ -91,10 +91,13 @@
     transition: color 0.3s ease;
     font-family:"Poppins", sans-serif;
     font-size: 14px;
+    padding: 5px;
 }
   
   .boton-descubrir:hover {
     color: white;
+    background-color: #08162f;
+    
   }
   
 

@@ -39,7 +39,7 @@ const RecoverPassForm = () => {
       return;
     }
 
-    // ✅ Actualizar la contraseña de ese usuario específico
+    // Actualizar la contraseña de ese usuario específico
     updateUserPasswordById(usuarioARecuperar.id, form.nuevo);
 
     alert("Contraseña actualizada con éxito");

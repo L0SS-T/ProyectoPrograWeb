@@ -43,7 +43,7 @@ const masVendidos = () => {
         ))}
       </div>
 
-      <button className="masVendidos-boton-ver" onClick={() => navigate('/colecciones')}>
+      <button className="masVendidos-boton-ver" onClick={() => navigate('/productos')}>
         Ver todos los productos
       </button>
     </section>

@@ -97,6 +97,9 @@ const AgregarProducto = ({ onVolver }) => {
         <select value={tipo} onChange={(e) => setTipo(e.target.value)}>
           <option value="convencional">Convencional</option>
           <option value="especial">Especial</option>
+          <option value="especial">de lujo</option>
+          <option value="especial">casual</option>
+          <option value="especial">artesanal</option>
         </select>
 
         <label>Stock:</label>

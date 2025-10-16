@@ -43,7 +43,7 @@ const NewCollections = () => {
                 className="boton-descubrir"
                 onClick={() => navigate("/colecciones")}
               >
-                Descubre más →
+                Descubre más de esta colección →
               </button>
             </div>
           </div>
