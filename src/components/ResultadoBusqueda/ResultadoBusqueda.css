@@ -1,0 +1,47 @@
+.resultado-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.resultado-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+·volverrr {
+  color: green;
+}
+.grid-resultados {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 25px;
+}
+
+.producto-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.producto-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.producto-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.producto-card h3 {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.producto-card p {
+  color: #444;
+  font-weight: 600;
+}    

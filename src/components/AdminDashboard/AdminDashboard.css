@@ -1,0 +1,51 @@
+/* Contenedor general */
+.admin-dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Título */
+.admin-dashboard h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+/* Botones de navegación */
+.botones-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.botones-nav button {
+  background-color: transparent;
+  border: 2px solid goldenrod;
+  color: goldenrod;
+  padding: 10px 25px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.botones-nav button:hover {
+  background-color: goldenrod;
+  color: white;
+}
+
+/* Contenido */
+.contenido {
+  background-color: #f7f5f2;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.05);
+}

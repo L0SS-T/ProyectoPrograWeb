@@ -1,0 +1,165 @@
+/* Header principal */
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFF;
+  padding: 0 40px;
+  height: 100px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Bloques */
+.header-left, .header-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo */
+.header-logo img {
+  height: 55px;
+  transition: transform 0.2s ease;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.header-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+  align-items: center; 
+}
+
+.header-menu a {
+  color: #807a64;
+  text-decoration: none;
+  font-weight: 300;
+  transition: color 0.2s ease;
+}
+
+.header-menu a:hover {
+  color: #08162f;
+}
+
+/* Buscar */
+.header-buscar {
+  margin-right: 20px;
+}
+.header-buscar input {
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #333;
+  background-color: #f9f9f9; /* mismo estilo de los cards */
+  width: 220px;
+  transition: box-shadow 0.2s ease;
+}
+
+.header-buscar input::placeholder {
+  color: #888;
+}
+
+.header-buscar input:focus {
+  box-shadow: 0 0 0 2px #c5a04a;
+}
+
+/* Usuario y Carrito */
+.header-usuario, .header-carrito {
+  position: relative;
+  margin-left: 10px;
+}
+
+.header-iconoUsuario, .header-carrito img {
+  height: 30px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+/* Dropdown */
+.header-dropdownMenu {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0;
+  min-width: 150px;
+  animation: header-fadeIn 0.2s ease-in-out;
+  z-index: 100;
+}
+
+.header-dropdownMenu button {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-family: "Poppins", sans-serif;
+}
+
+.header-dropdownMenu button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Botón Login */
+.header-botonLogin {
+  color: #807a64;
+  background: none;
+  border: 1px solid #807a64;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.header-botonLogin:hover {
+  background-color: #c5a04a;
+  color: white;
+}
+
+/* Animación fade */
+@keyframes header-fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header-main {
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+  }
+
+  .header-left, .header-right {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .header-buscar {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .header-menu ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+}

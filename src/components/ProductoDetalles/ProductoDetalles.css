@@ -1,0 +1,179 @@
+.producto-detalle-page {
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+}
+
+.producto-detalle-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* 📸 Imagen y miniaturas */
+.producto-detalle-imagen {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.producto-imagen-wrapper {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.producto-imagen-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rotar-boton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.rotar-boton.izquierda {
+  left: 10px;
+}
+
+.rotar-boton.derecha {
+  right: 10px;
+}
+
+.producto-miniaturas {
+  display: flex;
+  gap: 10px;
+}
+
+.producto-miniaturas img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.trust-badges {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.trust-badges div {
+  background: #fff;
+  border: 1px solid #ddd;
+  text-align: center;
+  flex: 1;
+  padding: 10px;
+}
+
+.trust-badges p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* 📝 Info producto */
+.producto-detalle-info {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.producto-detalle-info .categoria {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #a8874b;
+  text-transform: uppercase;
+}
+
+.producto-detalle-info h1 {
+  font-size: 36px;
+  font-family: serif;
+}
+
+.precio {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.precio span:first-child {
+  font-size: 28px;
+}
+
+.precio .moneda {
+  font-size: 14px;
+  color: #666;
+}
+
+.linea {
+  width: 100%;
+  height: 1px;
+  background: #c9a64f;
+}
+
+.cantidad-controles {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.cantidad-controles button {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+}
+
+.btn-agregar {
+  background: #c9a64f;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family:"Poppins", sans-serif;
+  font-size: large;
+}
+
+.btn-agregar:hover {
+  background: #b08c3d;
+}
+
+.info-extra {
+  background: #fff;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-extra div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.info-extra div:last-child {
+  border-bottom: none;
+}
+
+.stock-disponible {
+  color: #a8874b;
+  font-weight: bold;
+}

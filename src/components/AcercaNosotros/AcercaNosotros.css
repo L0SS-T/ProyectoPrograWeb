@@ -1,0 +1,117 @@
+.about-section {
+    background: white;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-hero {
+    height: 40vh;
+    background: url('https://images.unsplash.com/photo-1600181952474-df5fce389b54') center/cover no-repeat;
+    position: relative;
+  }
+  .about-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: #08162f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-hero-text {
+    text-align: center;
+    color: white;
+  }
+  .about-hero-text h1 {
+    font-size: 36px;
+    letter-spacing: 2px;
+  }
+  .about-hero-text p {
+    font-size: 16px;
+    opacity: 0.9;
+  }
+  
+  /* Contenido */
+  .about-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .about-block h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-values .value-item {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  .value-icon {
+    font-size: 24px;
+  }
+  
+  /* Visítanos */
+  .about-visit {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+  }
+  
+  .visit-card {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 40%;
+    
+  }
+  .visit-subtitle {
+    font-size: 14px;
+    color: #555;
+  }
+  .visit-info p {
+    margin-bottom: 10px;
+  }
+  
+  .visit-map {
+    height: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Premios */
+  .about-awards {
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+  }
+  .awards-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  .award-item {
+    width: 250px;
+  }
+  .award-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .award-item h3 {
+    margin-bottom: 5px;
+  }
+
+  

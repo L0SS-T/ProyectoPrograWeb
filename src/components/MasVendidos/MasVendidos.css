@@ -1,0 +1,95 @@
+.masVendidos-section {
+  background-color: #f7f5f2;
+  padding: 100px 40px;
+  text-align: center;
+}
+
+.masVendidos-encabezado .linea {
+  height: 2px;
+  width: 100px;
+  background-color: goldenrod;
+  margin: 0 auto 20px;
+}
+
+.masVendidos-encabezado h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+  font-family: "Playfair Display", serif;
+
+}
+
+.masVendidos-encabezado p {
+  color: #555;
+  margin-bottom: 60px;
+}
+
+.masVendidos-productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.masVendidos-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px #888;
+  padding: 20px;
+  width: 220px;
+  margin: 5px;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.masVendidos-card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.masVendidos-card:hover {
+  cursor: pointer;
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.masVendidos-card small {
+  color: #888;
+  font-size: 14px;
+}
+
+.masVendidos-card h3 {
+  font-size: 18px;
+  margin: 8px 0;
+  color: #1a1a1a;
+}
+
+.masVendidos-price {
+  color: goldenrod;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.masVendidos-boton-ver {
+  margin-top: 50px;
+  background-color: transparent;
+  border: 2px solid goldenrod;
+  color: goldenrod;
+  padding: 12px 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 6px;
+}
+
+.masVendidos-boton-ver:hover {
+  background-color: goldenrod;
+  color: white;
+}

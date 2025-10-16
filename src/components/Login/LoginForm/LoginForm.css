@@ -1,0 +1,151 @@
+.login-container {
+  min-height: 100vh;
+  background: #08162f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.login-box {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-title {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #c6a04a;
+}
+
+.login-subtitle {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-label {
+  font-size: 13px;
+  color: #333;
+}
+
+.login-input {
+  width: 350px;
+  padding: 10px;
+  padding-right: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.password-box {
+  position: relative;
+}
+
+.show-password-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.extras-box {
+  text-align: left;
+}
+
+.forgot-link {
+  font-size: 12px;
+  color: darkblue;
+  text-decoration: none;
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  background: #000;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-button:hover {
+  background: #333;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px 0;
+  position: relative;
+  font-size: 12px;
+  color: #666;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #ddd;
+  margin: 0 10px;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-btn {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.social-btn:hover {
+  background: #f3f3f3;
+}
+
+.register-link {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.register-link p{
+  color: #000;
+}
+.register-link #registrar {
+  color: #007bff;
+}
+
+.register-link #registrar:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

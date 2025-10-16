@@ -1,0 +1,19 @@
+.ContenedorN {
+
+    font-weight: 400;
+
+}
+h2, #subtitulo {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Sugerencias {
+    margin-left: 100px;
+    width: 50%;
+    
+}
+li {
+    margin-top: 20px;
+}

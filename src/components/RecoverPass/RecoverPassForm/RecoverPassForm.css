@@ -1,0 +1,38 @@
+
+.recoverBloque {
+    background-color: rgb(247, 247, 247);
+    padding: 40px;
+    border-radius: 10px;
+    width: 350px;
+    margin-bottom: 49px;
+}
+
+
+.recoverBloque h2 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: black;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 2px;
+}
+
+.recoverBloque input, .recoverBloque button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.recoverBloque input {
+  margin-bottom: 15px;
+  border: 1px solid rgb(175, 175, 175);
+}
+
+.recoverBloque button {
+  background-color: rgb(38, 38, 39);
+  color: white;
+  border: none;
+  font-weight: 600;
+}

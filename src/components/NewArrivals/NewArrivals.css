@@ -1,0 +1,60 @@
+.new-arrivals {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f7f5f2;
+}
+  
+.encabezado .linea {
+    width: 80px;
+    height: 2px;
+    background-color: goldenrod;
+    margin: 0 auto 10px;
+}
+
+.encabezado h2{
+    font-family: "Playfair Display", serif;
+
+}
+  
+.carrusel {
+    margin-top: 30px;
+}
+  
+.carrusel-contenido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+  
+.productos-arrivals {
+    display: flex;
+    gap: 18px;
+    margin: 0;
+}
+  
+.producto-card {
+    width: 240px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+  
+.imagen-container img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+  
+.info-producto {
+    padding: 10px;
+}
+  
+button {
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: goldenrod;
+    cursor: pointer;
+}
+  

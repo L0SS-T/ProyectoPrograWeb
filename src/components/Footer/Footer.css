@@ -1,0 +1,124 @@
+.footer-wrapper {
+    background-color: #08162f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    opacity: 0.90;
+    font-size: 14px;
+}
+
+.footer-wrapper h2 {
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.footer-wrapper .footer-content {
+    display: flex;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.footer-wrapper .footer1, 
+.footer-wrapper .footer2, 
+.footer-wrapper .footer3, 
+.footer-wrapper .footer4 {
+    margin-inline: 50px;
+}
+
+.footer-wrapper .footer1 {
+    padding-left: 20px;
+}
+
+.footer-wrapper a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    transition: color 0.2s ease;
+}
+
+.footer-wrapper a:hover {
+    text-decoration: underline;
+}
+
+.footer-wrapper .footer-section h4,
+.footer-wrapper .footer3 h4,
+.footer-wrapper .footer2 h4,
+.footer-wrapper .footer1 h4,
+.footer-wrapper .footer4 h4 {
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.footer-wrapper .footer1 ul, 
+.footer-wrapper .footer2 ul, 
+.footer-wrapper .footer3 ul {
+    list-style: none;
+    line-height: 20px;
+    padding: 0;
+    width: 200px;
+}
+
+.footer-wrapper .footer1 ul li:hover {
+    color: #c5a04a;
+    cursor: pointer;
+}
+
+.footer-wrapper .footer-end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-wrapper .footer-end .policies span {
+    margin: 0 10px;
+}
+
+.footer-wrapper .footer-end .policies span:hover {
+    text-decoration: underline;
+}
+
+.footer-wrapper .siguenos {
+    margin-top: 10px;
+    text-align: left; 
+}
+
+.footer-wrapper .siguenos h4 {
+    margin-bottom: 10px; 
+}
+
+.footer-wrapper .siguenos .redes {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.footer-wrapper .siguenos .redes img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.footer-wrapper .siguenos .redes img:hover {
+    transform: scale(1.1);
+}
+
+.footer-wrapper .suscripcion button {
+    background-color: #c5a04a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 12px;
+    width: fit-content;
+    margin-left: 20px;
+}
+
+.footer-wrapper input {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    width: 200px;
+}

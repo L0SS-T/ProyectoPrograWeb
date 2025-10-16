@@ -1,0 +1,209 @@
+.catalogo-page {
+  min-height: 100vh;
+  background: #fafafa;
+  padding: 40px 20px;
+}
+
+/* HEADER */
+.catalogo-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.catalogo-header-linea {
+  width: 60px;
+  height: 1px;
+  background: goldenrod;
+}
+
+.catalogo-header-tag {
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: goldenrod;
+}
+
+.catalogo-titulo-principal {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-family: "Playfair Display", serif;
+
+}
+
+.catalogo-subtitulo {
+  text-align: center;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+  font-size: 15px;
+}
+
+/* SECCIONES */
+.catalogo-section {
+  max-width: 1200px;
+  margin: 0 auto 60px auto;
+}
+
+.catalogo-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.catalogo-section-title {
+  font-size: 28px;
+
+}
+
+.catalogo-ver-todo-btn {
+  background: none;
+  border: 1px solid goldenrod;
+  padding: 8px 15px;
+  color: goldenrod;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-family:"Poppins", sans-serif;
+  font-size: 14px;
+
+}
+
+.catalogo-ver-todo-btn:hover {
+  background: goldenrod;
+  color: white;
+}
+
+/* CARRUSEL */
+.catalogo-carrusel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.catalogo-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #444;
+}
+
+.catalogo-productos {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+.catalogo-producto-card {
+  background: #fff;
+  border: 1px solid #eee;
+  width: 30%;
+  min-width: 250px;
+  transition: all 0.3s;
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.catalogo-producto-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.catalogo-imagen-container {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+
+.catalogo-imagen-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.catalogo-producto-card:hover img {
+  transform: scale(1.05);
+}
+
+.catalogo-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.3s;
+}
+
+.catalogo-producto-card:hover .catalogo-overlay {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.catalogo-info-producto {
+  padding: 15px;
+  text-align: center;
+}
+
+.catalogo-linea-dorada {
+  width: 40px;
+  height: 2px;
+  background: goldenrod;
+  margin: 0 auto 8px auto;
+}
+
+.catalogo-info-producto h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.catalogo-info-producto p {
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 8px;
+}
+
+.catalogo-precio {
+  color: goldenrod;
+  font-weight: 600;
+}
+
+/* CTA FINAL */
+.catalogo-cta {
+  background: #f0f0f0;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.catalogo-cta h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.catalogo-cta p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.catalogo-cta-btn {
+  background: #d4a017;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: background 0.3s;
+  font-family:"Poppins", sans-serif;
+}
+
+.catalogo-cta-btn:hover {
+  background: #d4a017;
+}

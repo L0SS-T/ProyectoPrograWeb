@@ -1,0 +1,230 @@
+.maniobra-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Títulos */
+.maniobra-container h3,
+.maniobra-container h4 {
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+#desactivarrr {
+  color: red;
+}
+/* Formularios */
+.maniobra-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.maniobra-form label {
+  font-weight: 500;
+  color: #555;
+}
+
+.maniobra-form input,
+.maniobra-form select,
+.maniobra-form textarea {
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 10px 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  background-color: #f9f9f9;
+  transition: box-shadow 0.2s ease;
+}
+
+.maniobra-form input:focus,
+.maniobra-form select:focus,
+.maniobra-form textarea:focus {
+  box-shadow: 0 0 0 2px #c5a04a;
+}
+
+/* Botones */
+.maniobra-button {
+  background-color: transparent;
+  border: 2px solid goldenrod;
+  color: goldenrod;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.maniobra-button:hover {
+  background-color: goldenrod;
+  color: white;
+}
+
+/* Listas */
+.maniobra-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.maniobra-list li {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.maniobra-list li button {
+  background-color: transparent;
+  border: none;
+  color: crimson;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.maniobra-list li button:hover {
+  color: darkred;
+}
+
+/* Tablas (si decides usarlas) */
+.maniobra-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.maniobra-table th,
+.maniobra-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.maniobra-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.maniobra-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Inputs de búsqueda */
+.maniobra-buscador {
+  width: 100%;
+  max-width: 300px;
+  border: none;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  outline: none;
+  transition: box-shadow 0.2s ease;
+}
+
+.maniobra-buscador:focus {
+  box-shadow: 0 0 0 2px #c5a04a;
+}
+
+/* Secciones de datos */
+.maniobra-info p {
+  margin: 8px 0;
+  color: #555;
+}
+
+.maniobra-info strong {
+  color: #1a1a1a;
+}
+/* Botón principal (confirmar, guardar, aceptar) */
+/* Botón principal */
+.btn-primary {
+  background: linear-gradient(135deg, #d4a017, #f0c75e);
+  border: none;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s ease;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #c4902f, #e0b75c);
+}
+
+/* Botón secundario */
+.btn-secondary {
+  background: #fff;
+  border: 2px solid goldenrod;
+  color: goldenrod;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s ease, color 0.3s ease;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.btn-secondary:hover {
+  transform: translateY(-2px);
+  background: goldenrod;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Botón de peligro */
+.btn-danger {
+  background: #fff;
+  border: 2px solid crimson;
+  color: crimson;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s ease, color 0.3s ease;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.btn-danger:hover {
+  transform: translateY(-2px);
+  background: crimson;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Botón pequeño */
+.btn-small {
+  padding: 6px 14px;
+  font-size: 12px;
+  border-radius: 6px;
+  border: 2px solid #ccc;
+  background: #f9f9f9;
+  color: #555;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.btn-small:hover {
+  transform: translateY(-1px);
+  background: #e0e0e0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
